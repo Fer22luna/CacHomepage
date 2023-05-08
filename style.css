@@ -1,0 +1,155 @@
+
+body{
+    background-color: rgb(50, 50, 50);
+}
+
+.hero-section{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./img/ba1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 80vh;
+}
+
+
+.hero-section-contain{
+
+    text-align: left;
+    height: auto;
+    width:  47vw;
+    margin-right: 120px !important;
+    margin-top:100px !important;
+
+}
+
+.hero-section-text{
+
+    font-size: 22px;
+}
+
+.card-section{
+    background-color: white;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.card-section-title{
+    
+    text-align: center;
+    
+}
+
+.card-section-title h2{
+
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 30px;
+
+}
+
+.card-section-title h3{
+
+    font-size: 35px;
+    font-weight:bolder;
+
+}
+
+.tag{
+
+    font-size: 12px;
+    padding:0px 5px 0px 5px !important;
+    font-weight: bold;
+}
+
+
+.footer-container{
+    background-color: #3e6ead;
+    height: 16vh;
+}
+
+.footer-container ul {
+
+   list-style: none;
+   width: 100%;
+   margin-right: 200px !important;
+   margin-left: 200px !important ;
+   height: 50px;
+}
+
+.footer-container ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.img-primary{
+    width: 50vw;
+    height: auto;
+    border:1px white groove;
+}
+
+.img-text{
+    border:1px white groove;
+}
+
+
+.form-container{
+    text-align: center;  
+    background-color: white;
+
+}
+
+.left{
+    text-align: left;
+    margin-top: 5px;
+    color:rgba(128, 128, 128, 0.527);
+
+}
+.form-container h2{
+
+    font-size: 16px;
+    font-weight:300;
+}
+
+.form-container h3{
+
+    font-size: 35px;
+    font-weight:500;
+}
+
+.dot{
+    text-decoration-style: dotted !important;
+    text-decoration-line: underline !important;
+    
+}
+
+.form-div{
+    width: 50%;
+}
+
+.input-form{
+    width: 25vw !important;
+}
+
+.input-form::placeholder{
+    color:rgba(128, 128, 128, 0.527);
+}
+
+
+.btn-send{
+    background-color: #93d650;
+    width: 100%;
+}
+
+.text-area{
+    height: 16vh;
+}
+
+.text-area::placeholder{
+    color:rgba(128, 128, 128, 0.527);
+    font-size: 25px;
+
+}
+

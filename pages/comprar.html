@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+  <title>CaC page</title>
+</head>
+
+<body class="container-fluid">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark ">
+      <div class="container-fluid align-items-center">
+        <a class="navbar-brand ms-5" href="#">
+          <img src="../img/codoacodo.png" alt="Logo" width="auto" height="65" class="d-inline-block align-text-top">
+        </a>
+        <a class="nav-link text-light fs-4 " href="#">Conf Bs As</a>
+        <div class="collapse navbar-collapse justify-content-end me-5 " >
+          <div class="navbar-nav">
+            <a class="nav-link text-light" href="#">La conferencia</a>
+            <a class="nav-link text-secondary" href="#">Los oradores</a>
+            <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
+            <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
+            <a class="nav-link text-success" href="#">Compra tickets</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="comprar-container">
+    <section class="discount-list  d-flex flex-row justify-content-center align-items-center">
+        <div class="category-div student">
+            <h3>Estudiante</h3>
+            <p> Tienen un descuento</p>
+            <span>80%</span>
+            <div> *presentar documetacion</div>
+        </div>
+        <div class="category-div trainee">
+            <h3>Trainee</h3>
+            <p> Tienen un descuento</p>
+            <span>50%</span>
+            <div> *presentar documetacion</div>
+        </div>
+        <div class="category-div junior">
+            <h3>Junior</h3>
+            <p> Tienen un descuento</p>
+            <span>15%</span>
+            <div> *presentar documetacion</div>
+        </div>
+    </section>
+    <section class="sell-form d-flex flex-column align-items-center justify-content-center ">
+        <h1> VENTA </h1>
+        <h2> VALOR DE TICKET $200 </h2>
+        <form>
+            <div class="mb-3 d-flex flex-row">
+              <input type="text" class="form-control me-2 input-form text-secondary" placeholder="Nombre" id="name">
+              <input type="text" class="form-control ms-2 input-form " placeholder="Apellido" id="lastName">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control input-form text-secondary form-email" name="email" id="email" placeholder="Correo">
+            </div>
+            <div class="d-flex flex-row align-items-center justify-content-center">
+                <div class="d-flex flex-column align-items-start justify-content-center me-2">
+                    <label for="quantity" class="mb-2">Cantidad</label>
+                    <input type="text" placeholder="Cantidad" name="Cantidad" class="form-control  input-form text-secondary"  id="quantity">    
+                </div>
+                <div class="d-flex flex-column align-items-start justify-content-center ms-2">
+                    <label for="select-category" class="mb-2" >Categoria</label>
+                    <select name="select" class="form-select  input-form text-secondary" id="select-category">
+                        <option value="Estudiantes">Estudiantes</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>                       
+                    </select>
+                </div> 
+            </div>
+            <div id="total">
+                Total a pagar: $ <span id="span-total"></span>
+            </div>
+            <div class="button-resume d-flex flex-row align-items-center justify-content-center mb-4">
+                <button type="submit" class="btn btn-send pt-2 pb-2 fs-5 text-light me-2" name="Borrar" id="borrar">Borrar</button>
+                <button type="submit" class="btn btn-send pt-2 pb-2 fs-5 text-light ms-2" name="Resumen" id="resumen">Resumen</button>
+            </div>
+          </form>
+
+    </section>
+  </main>
+  <footer class="footer-container d-flex align-items-center">
+
+    <ul class="list  d-flex flex-row justify-content-around align-items-center mt-3">
+      <li><a href="#">Preguntas <br> frecuentes</a> </li>
+      <li><a href="#">Contáctanos</a></li>
+      <li><a href="#">Prensa</a></li>
+      <li><a href="#">Conferencias</a></li>
+      <li><a href="#">Terminos y <br> condiciones</a></li>
+      <li><a href="#">Privacidad</a></li>
+      <li><a href="#">Estudiantes</a></li>
+    </ul>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+</body>
+
+</html>

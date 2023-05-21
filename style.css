@@ -143,6 +143,11 @@ body{
     width: 100%;
 }
 
+.btn-send:hover{
+    color:#559c08 !important;
+    border:#93d650 solid 1px !important;
+}
+
 .text-area{
     height: 16vh;
 }
@@ -153,3 +158,70 @@ body{
 
 }
 
+
+/******************************** COMPRAR *********************************************/
+
+#comprar-container{
+    background-color: white;
+}
+
+.sell-form h1{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 15px;
+
+}
+.discount-list{
+    padding-top: 40px;
+}
+
+.category-div{
+    padding: 25px;
+    margin:0px 3px 0px 3px;
+    text-align: center;
+}
+
+.student{
+    border:solid 1px rgb(40, 40, 220);
+}
+
+.trainee{
+    border:solid 1px rgb(31, 205, 31);
+}
+
+.junior{
+    border:solid 1px rgb(193, 193, 29);
+}
+
+.category-div h3{
+    font-size: 25px;
+}
+
+.category-div p{
+    font-size: 17px;
+}
+
+.category-div span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category-div div{
+    font-size: 15px;
+    margin-top: 20px;
+    color: grey;
+}
+
+.form-email{
+    width: 100% !important;
+}
+
+#total{
+    width: 100%;
+    background-color: #d1e5ff;
+    height: auto;
+    color: #00459e;
+    border-radius:5px;
+    padding: 17px 0px 17px 20px;
+    margin: 30px 0px 30px 0px;
+}
